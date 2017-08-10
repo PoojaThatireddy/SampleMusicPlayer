@@ -16,7 +16,7 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 
-public class PlayOnlineUrl extends Activity implements View.OnClickListener {
+public class PlayOnlineUrlAndSavedAudio extends Activity implements View.OnClickListener {
     private Button btnPause;
     private Button btnPlay,btnForward,btnBackward;
     boolean isPausing=false;
